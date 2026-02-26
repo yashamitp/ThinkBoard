@@ -5,6 +5,7 @@ import CreatePage from "./pages/CreatePage";
 import NoteDetailPage from "./pages/NoteDetailPage";
 import toast from "react-hot-toast";
 import RateLimitedUI from "./components/RateLimitUi";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="notedetail" element={<NoteDetailPage />} />
         <Route path="ratelimitui" element={<RateLimitedUI />} />
       </Routes>
+      <SpeedInsights />
     </div>
   );
 }
