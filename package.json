@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/yashamitp/ThinkBoard/issues"
   },
-  "homepage": "https://github.com/yashamitp/ThinkBoard#readme"
+  "homepage": "https://github.com/yashamitp/ThinkBoard#readme",
+  "dependencies": {
+    "node": "^18.20.8"
+  }
 }
